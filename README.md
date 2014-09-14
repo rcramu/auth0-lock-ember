@@ -11,10 +11,10 @@ WIP
 TODOS
 =====
 
-[] Mixin
-[] Better testing
-[] Add bower support
-[] Ready to use views
-[] Better docs?
+- [x] Mixin
+- [ ] Better testing
+- [ ] Add bower support
+- [ ] Ready to use views
+- [ ] Better docs?
 
 PR's and bug reports are always welcome!
