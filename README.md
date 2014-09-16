@@ -1,3 +1,4 @@
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/qboss/auth0-lock-ember?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 Auth0 Lock for Ember
 --------------------
 
