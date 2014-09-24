@@ -63,3 +63,13 @@ var Auth0LockMixin = Ember.Mixin.create({
   }
 
 });
+
+var requiresAuthenticationRoute = Ember.Route.extend({
+  willTransition: function(transition){
+    if (!this.get("controller").get("userLoggedIn")){
+      transition.abort(); // TODO: Throw an error?
+    } else {
+      return true;
+    }
+  }
+});
